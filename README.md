@@ -63,3 +63,18 @@ Error: Matrix a and b must have the same rows and cols.
 
 ## 截止日期｜Deadline
 待定
+
+## 我的思路|mythinking
+
+### 看到文件前
+1.函数
+2.指向指针的指针
+3.用全局变量来实现多个函数串联
+4.使用自动分配来实现对不同大小矩阵的计算
+
+### 看到文件后
++，-，x，数乘，转置，：新矩阵
+行列式：按第一行展开 新矩阵 递归
+逆矩阵：A*/|A|
+秩： from thinking
+迹：加起来

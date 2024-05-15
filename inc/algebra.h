@@ -9,18 +9,27 @@ typedef struct Matrix {
     double data[MAX_MATRIX_SIZE][MAX_MATRIX_SIZE];  // 矩阵的数据
 } Matrix;
 
-/**
- * @brief 创建矩阵
- * @param rows 矩阵的行数
- * @param cols 矩阵的列数
+
+
+ /*
+ *scanf("%d",&x) @param rows 矩阵的行数
+ *scanf("%d",&y) @param cols 矩阵的列数
  * @return 初始化后的矩阵
 */
 Matrix create_matrix(int rows, int cols);
 
 /**
  * @brief 矩阵加法
- * @param a 矩阵a
- * @param b 矩阵b
+ *调用1. @param a 矩阵a
+ *调用2. @param b 矩阵b
+ * if(xa!=xb || ya!=yb)
+ * {
+ *      return 
+ * }else{
+ *      printf("Error: Matrix a and b must have the same rows and cols.\n");
+ *      return(1.xa,ya00)
+ * }
+ *
  * @return a + b, 如果a和b的行数或列数不相等，会给出错误提示"Error: Matrix a and b must have the same rows and cols.\n"并返回一个空矩阵
 */
 Matrix add_matrix(Matrix a, Matrix b);
